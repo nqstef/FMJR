@@ -2,3 +2,41 @@
 - being able to predict mean-reversion and trending environments intraday across all markets, primarily indexes
 - statistical arbitrage across different prop firm accounts
 - volatility harvesting on prop firms /S
+
+
+
+When do overnight moves continue after the US open?
+  - Does a large overnight index move tend to extend or reverse depending on overnight volume, previous-day direction, and scheduled news?
+    - First test: Group overnight moves by size relative to recent volatility. Measure the next 30, 60, and 120 minutes’ returns.
+
+What distinguishes a failed breakout from a successful one?
+  - When price first crosses the previous day’s high or low, does participation help distinguish continuation from reversal?
+    - First test: Define the level and crossing rule in advance, then compare forward returns across volume and volatility conditions. Include every qualifying crossing.
+
+Does agreement across indices make a move more persistent?
+  - Is a Nasdaq move more likely to continue when the S&P and Russell move in the same direction?
+    - First test: Compare Nasdaq’s forward returns following similar-sized initial moves, with and without confirmation from the other indices.
+
+When is a large move away from VWAP actually informative?
+  - Does distance from the session’s volume-weighted average price predict reversal—or merely reflect an ongoing trend?
+    - First test: Express distance in volatility units and compare forward returns by time of day and preceding trend strength. Use VWAP calculated only up to the signal time.
+
+Does a quiet morning predict an active afternoon?
+  - Can unusually low morning volatility predict later range expansion, even if it cannot predict direction?
+    - First test: Compare afternoon realised volatility after quiet versus typical mornings, controlling for scheduled announcements.
+
+Does the first reaction to economic news persist?
+  - Under what conditions does an initial announcement move continue over the following 15–60 minutes?
+    - First test: Study one release type at a time and compare initial move size, subsequent reversal, and volume. CME’s analysis of economic releases and futures activity provides useful background; it does not establish a trading edge.
+
+Do sector-wide moves carry different information from company-specific moves?
+  - Does Micron behave differently after a broad semiconductor sell-off versus an equally large move isolated to Micron?
+    - First test: Separate the stock’s return into a sector-related component and a residual, using relationships estimated from past data. Compare subsequent returns.
+
+Do simple volatility forecasts improve sizing?
+  - Can yesterday’s volatility, overnight range, or a combination forecast today’s realised volatility well enough to improve risk control?
+    - First test: Compare a few simple forecasts on unseen periods, then test whether their sizing decisions stabilise risk after costs.
+
+How long does a signal remain useful?
+  - For any promising finding, does its apparent value disappear when entry is delayed?
+    - First test: Compare execution at the next realistically available price and after additional delays. This helps distinguish a usable finding from one dependent on unattainable fills.
