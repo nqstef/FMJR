@@ -21,7 +21,7 @@ When is a large move away from VWAP actually informative?
   - Does distance from the session’s volume-weighted average price predict reversal—or merely reflect an ongoing trend?
     - First test: Express distance in volatility units and compare forward returns by time of day and preceding trend strength. Use VWAP calculated only up to the signal time.
 
-Does a quiet morning predict an active afternoon?
+Does a quiet morning predict an active afternoon? /N
   - Can unusually low morning volatility predict later range expansion, even if it cannot predict direction?
     - First test: Compare afternoon realised volatility after quiet versus typical mornings, controlling for scheduled announcements.
 
